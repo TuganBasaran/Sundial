@@ -18,7 +18,7 @@ This is the official repository of [Sundial: A Family of Highly Capable  Time Se
 
 ## Introduction
 
-Sundial is a family of **generative** time series foundation models, which is pre-trained on TimeBench (**10^12** time points). The model can be applied for both **point** and **probabilistic** forecasting.
+Sundial is a family of **generative** time series foundation models, which is pre-trained on TimeBench (**10^12** time points). The model can be applied for both **point** / **probabilistic** **zero-shot** forecasting.
 
 Not only the mean or quantiles, you can estimate anything about the predictive distribution with raw generated samples.
 
