@@ -20,7 +20,7 @@ This is the official repository of [Sundial: A Family of Highly Capable  Time Se
 
 Sundial is a family of **generative** time series foundation models, which is pre-trained on TimeBench (**10^12** time points). The model can be applied for both **point** / **probabilistic** **zero-shot** forecasting.
 
-Not only the mean or quantiles, you can estimate anything about the predictive distribution with raw generated samples.
+Not only the mean or quantiles, you can get any statistical predictions with a set of generated samples.
 
 We propose **TimeFlow Loss** to predict next-patch’s distribution, allowing Transformers to be trained **without discrete tokenization** and make **non-deterministic predictions**.
 
